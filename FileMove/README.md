@@ -1,4 +1,12 @@
-Reference: https://github.com/RushUniversityMedicalCenter/aws-data-tools/wiki/RUSH-Data-Processing-in-AWS
+# Lambda : FileMove
+
+# Input Parameters 
+  1. "source": source bucket
+  2. "destination": destination bucket
+
+# Process
+1. Created a S3 Trigger i.e if a file is added to source bucket , lambda will be executed
+2. Create a environment variable i.e bucket_destination which has the path of file transferred
+3. Moving files from source to a particular folder in another bucket 
 
 
-This is the Lambda function that allows a File to be moved from the S3 Source Folder to a folder used for healthlake data processing lambda.
