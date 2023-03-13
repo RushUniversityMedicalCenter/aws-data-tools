@@ -1,9 +1,9 @@
 # Reprocessingdata-rush
 
 # Input parameters
-1. "source_bucket": "processbucket-rush-dev",
-2. "error_bucket": "errorbucket-rush-dev",
-3. "final_bucket": "finalbucket-rush-dev",
+1. "source_bucket": source bucket name,
+2. "error_bucket": error bucket name,
+3. "final_bucket": final successfull filesuploaded bucket name,
 4. "error_folder_name_inside_bucket":"ErrorLogFiles"
 
 
